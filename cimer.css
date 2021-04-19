@@ -13,10 +13,10 @@ ol li{
 }
 
 .hasab{
-  -webkit-column-count: 3; 
+  -webkit-column-count: 3;
   -moz-column-count: 3; 
   column-count: 3;
-  line-height: 120%;
+  line-height: 200%;
 }
 
 h1, h2{
@@ -32,9 +32,11 @@ h1, h2{
 
 a{
   text-decoration: none;
+  color: #7F7F7F;
 }
 
 img{
+  margin: 15px;
   border: 1px solid #0F0F0F;
   box-shadow: 5px 5px 5px #7F7F7F;
   padding:15px;
@@ -47,19 +49,10 @@ img{
 }
 
 .fk{
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #teljes{
   float:right;
-}
-span{
-  font-weight: bold;
-}
-#cimer{
-  float: right;
-  position: relative;
-}
-img{
-  padding: 15px;
+  width: 280px;
 }
